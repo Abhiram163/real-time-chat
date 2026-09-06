@@ -6,6 +6,7 @@
   </p>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Features</h2>
+
   <ul style="list-style-type: disc; padding-left: 20px; color: #555; font-size: 16px;">
     <li><strong>Real-Time Messaging:</strong> Send and receive messages instantly using Socket.IO.</li>
     <li><strong>User Authentication:</strong> User registration and login with JWT-based authentication and cookies.</li>
@@ -19,6 +20,7 @@
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Tech Stack</h2>
 
   <h3 style="color: #34495e; font-size: 20px;">Frontend:</h3>
+
   <ul style="list-style-type: disc; padding-left: 20px; color: #555; font-size: 16px;">
     <li>React.js for UI development</li>
     <li>Tailwind CSS for styling</li>
@@ -28,6 +30,7 @@
   </ul>
 
   <h3 style="color: #34495e; font-size: 20px;">Backend:</h3>
+
   <ul style="list-style-type: disc; padding-left: 20px; color: #555; font-size: 16px;">
     <li>Node.js for server-side JavaScript</li>
     <li>Express.js for building REST APIs</li>
@@ -38,43 +41,72 @@
   </ul>
 
   <h3 style="color: #34495e; font-size: 20px;">Other:</h3>
+
   <ul style="list-style-type: disc; padding-left: 20px; color: #555; font-size: 16px;">
     <li>Git for version control</li>
     <li>GitHub for source code management</li>
   </ul>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Installation &amp; Setup</h2>
+
   <ol style="padding-left: 20px; color: #555; font-size: 16px;">
-    <li>Clone the repository:
-      <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>git clone https://github.com/Abhiram163/real-time-chat.git
-cd real-time-chat</code></pre>
-    </li>
 
 ```
-<li>Navigate to the client directory:
+<li>
+  Clone the repository:
+
+  <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>git clone https://github.com/Abhiram163/real-time-chat.git
+```
+
+cd real-time-chat</code></pre> </li>
+
+```
+<li>
+  Navigate to the client directory:
+
   <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>cd client</code></pre>
 </li>
 
-<li>Install client-side dependencies:
+<li>
+  Install client-side dependencies:
+
   <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>npm install</code></pre>
 </li>
 
-<li>Start the frontend development server:
+<li>
+  Start the frontend development server:
+
   <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>npm run dev</code></pre>
-  <p>The frontend typically runs on <code>http://localhost:5173</code>.</p>
+
+  <p>
+    The frontend typically runs on
+    <code>http://localhost:5173</code>.
+  </p>
 </li>
 
-<li>Setup the backend:
-  <p>Open another terminal and navigate to the backend directory.</p>
-  <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>cd server
-```
+<li>
+  Setup the backend:
 
-npm install</code></pre> </li>
+  <p>
+    Open another terminal and navigate to the backend directory.
+  </p>
 
-```
-<li>Create a <code>.env</code> file in the backend directory and add the required environment variables such as the MongoDB connection string and JWT secret.</li>
+  <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>cd server</code></pre>
+</li>
 
-<li>Start the backend server:
+<li>
+  Install backend dependencies:
+
+  <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>npm install</code></pre>
+</li>
+
+<li>
+  Create a <code>.env</code> file in the backend directory and add the required environment variables, such as the MongoDB connection string and JWT secret.
+</li>
+
+<li>
+  Start the backend server:
+
   <pre style="background-color: #f4f4f4; padding: 6px; border-radius: 4px;"><code>npm run dev</code></pre>
 </li>
 ```
@@ -82,16 +114,19 @@ npm install</code></pre> </li>
   </ol>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Usage</h2>
+
   <p style="color: #555; font-size: 16px;">
     Users can register or log in to the application and start conversations with other users. Messages are delivered in real time using Socket.IO, and users can also share images through the chat. User and chat information is stored in MongoDB.
   </p>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Real-Time Communication</h2>
+
   <p style="color: #555; font-size: 16px;">
     Socket.IO is used to establish real-time communication between the client and server. When a message is sent, the server processes the event and delivers it to the appropriate user without requiring the page to be refreshed.
   </p>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Contributing</h2>
+
   <ol style="padding-left: 20px; color: #555; font-size: 16px;">
     <li>Fork the repository.</li>
     <li>Create a new branch for your changes.</li>
@@ -101,6 +136,7 @@ npm install</code></pre> </li>
   </ol>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Author</h2>
+
   <p style="color: #555; font-size: 16px;">
     <strong>Abhiram Vadhri</strong>
   </p>
@@ -111,6 +147,7 @@ npm install</code></pre> </li>
   </p>
 
   <h2 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Acknowledgments</h2>
+
   <ul style="list-style-type: disc; padding-left: 20px; color: #555; font-size: 16px;">
     <li>React.js</li>
     <li>Tailwind CSS</li>
@@ -121,4 +158,5 @@ npm install</code></pre> </li>
     <li>Socket.IO</li>
     <li>Axios</li>
   </ul>
+
 </div>
